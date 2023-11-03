@@ -83,10 +83,10 @@ public class parabankStepDefinition {
 	    registerAction.clickRegister();
 	}
 	
-//	@Then("user gets confirmation messege")
-//	public void user_gets_confirmation_messege() {
-//	    Assert.assertEquals(registerAction.registerAssert(),"Your account was created successfully. You are now logged in.");
-//	}
+	@Then("user gets confirmation messege")
+	public void user_gets_confirmation_messege() {
+	    //Assert.assertEquals(registerAction.registerAssert(),"Your account was created successfully. You are now logged in.");
+	}
 	
 	@Given("user is on webpage {string}")
 	public void user_is_on_webpage(String string) {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="16.969" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To Register and Login" name="Register into the parabank" time="16.787">
+<system-out><![CDATA[
+Given user is on parabank page..............................................passed
+When user clicks on register link...........................................passed
+And user enters the firstname...............................................passed
+And user enters the lastname................................................passed
+And user enter the address..................................................passed
+And user enter the city.....................................................passed
+And user enter the state....................................................passed
+And user enter the zipcode..................................................passed
+And user enter the phone....................................................passed
+And user enter the ssn......................................................passed
+And user enter the username.................................................passed
+And user enter the password.................................................passed
+And user enter the confirmpassword..........................................passed
+And user clicks register....................................................passed
+Then user gets confirmation messege.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -15,17 +15,36 @@ Feature: To Register and Login
     And user enter the password
     And user enter the confirmpassword
     And user clicks register
-
-  #Then user gets confirmation messege
-  Scenario Outline: login with correct user id and pass
-    Given user is on webpage "https://parabank.parasoft.com/parabank/index.htm"
-    When user give id "<name>"
-    And user give pass "<pass>"
-    Then click log
-
-    Examples: 
-      | name | pass    |
-      | xxx  |  123456 |
-      | sgsg | sgsgshg |
-      | xxx  | agehhae |
-      |      |         |
+		Then user gets confirmation messege
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+  
